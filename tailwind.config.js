@@ -4,11 +4,14 @@ module.exports = {
   theme: {
     extend: {
       screens:{
-        "sm":"480px"
-      }
+        "sm":"480px",
+      },
+      // spacing:{
+      //   "big":"48rem"
+      // }
     },
     fontfamily:{
-      roboto: ['roboto', 'sans-serif']
+      nunito: ['Nunito', 'sans-serif']
     }
   },
   plugins: [],
